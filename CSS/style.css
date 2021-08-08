@@ -1,0 +1,294 @@
+header nav ul{
+    display: flex;
+    flex-direction: row;
+}
+.header-box{
+    position: fixed;
+    z-index: 2;
+}
+header nav ul li{
+    font-size: 1vw;
+    padding: 0vw 1.5vw 0vw  1.5vw;
+}
+.more{
+    color: white;
+    font-size: 1vw;
+    line-height: 3vw;
+    padding: 0vw 1.5vw 0vw  1.5vw;
+}
+.more:hover{
+    background-color:#c9c9c9;
+}
+.header-box{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+.links{
+text-decoration: none;
+color: white;
+line-height: 3vw;
+}
+.display-list{
+    position: absolute;
+    display: none;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 10%), 0 4px 10px 0 rgb(0 0 0 / 1%);
+    background-color: white;
+    padding-top: 0vw;
+    padding-bottom: 0vw;
+    line-height: 1vw;
+}
+.more:hover .display-list{
+    display: block;
+}
+.More-links{
+    position: relative;
+    text-decoration: none;
+color: black;
+}
+.more-list{
+    position: relative;
+    padding: 0.4vw 2vw 0.4vw  1vw;
+    margin-left: 0vw;
+    line-height: 2vw;
+}
+.more-list:hover{
+   background-color:#c9c9c9;
+}
+li:hover{
+    background-color:#c9c9c9;
+}
+#searchIcon{
+    position: relative;
+    left: 64.2vw;
+}
+#searchIcon img{
+    vertical-align: middle;
+    width: 1vw;
+    height: 1vw;
+    margin-top: 1vw;
+}
+#searchIcon:hover{
+    background-color: red;
+}
+.slideShow{
+    width: 100%;
+    position: relative;
+    top: 2.9vw;
+    z-index: 1;
+}
+.slideText{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-size: 1vw;
+    color: white;
+    line-height: 2vw;
+    top: -3vw;
+}
+.slideText h3{
+    font-size: 1.5vw;
+}
+.mainPara{
+    text-align: justify;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 16px;
+}
+.mainPara h2{
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+
+}
+.cardList{
+    line-height: 1.5;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 32px 16px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cardList img{
+    width: 60%;
+    border-radius: 4px;
+    vertical-align: middle;
+    margin-bottom: 16px;
+}
+.tourDates{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.tourDates div{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px;
+}
+.tourList{
+    color: white;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    padding: 0px 16px;
+}
+.tourList li{
+    padding: 8px 16px;
+    background-color: white;
+    color:  #757575;
+    border-bottom: 1px solid #ddd;
+}
+.tourList li span{
+    display: inline-block;
+    color: white;
+    margin-left: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: red;
+}
+.tourList li:last-child span {
+    background-color: black;
+    float: right;
+    margin-right: 16px;
+    border-radius: 50%;
+    border-bottom: none;
+}
+.tourCard{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tourCard div{
+    padding: 0px;
+    width: 30%;
+    margin: 0px;
+    background-color: white;
+    color: black;
+}
+.tourCard div img{
+    width: 100%;
+}
+.tourCard div div{
+    display: block;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.tourCard div div button{
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+    border: none;
+    line-height: 1.5;
+}
+.tourCard div div button:hover{
+    background-color: #c9c9c9;
+    color: black;
+}
+.contact{
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 16px;
+    text-align: center;
+}
+.contact h2{
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 4px;
+}
+.contact p{
+    opacity: 0.60;
+    font-size: 15px;
+    line-height: 1.5;
+    font-style: italic;
+    margin: 15px 0px;
+}
+.contactInfo{
+    width: 50%;
+    font-size: 18px;
+    line-height: 1.5;
+    display: block;
+    /* margin-bottom: 16px; */
+    text-align: left;
+
+}
+.contactContainer{
+    padding: 32px 0px;
+    display: flex;
+}
+.contactForm{
+    display: block;
+    width: 50%;
+}
+.innerAsideForm input{
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 90%;
+    /* display: block; */
+    font-size: 15px;
+    line-height: 1.5;
+}
+.asideForm{
+    display: flex;
+    margin-bottom: 8px;
+}
+.innerAsideForm{
+    width: 50%;
+    padding: 0px 8px;
+}
+.messInput{
+    padding: 8px;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 91%;
+    border: 1px solid #ccc;
+}
+.contactForm button{
+    background-color: black;
+    color: white;
+    float: right;
+    margin: 16px 0px;
+    padding: 8px 16px;
+    border: none;
+    margin-right: 9px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.contactForm button:hover{
+    color: black;
+    background-color: #c9c9c9;
+}
+footer{
+    background-color: #f1f1f1;
+    padding: 64px 16px;
+    text-align: center;
+}
+footer p{
+    margin: 15px 0px;
+    color: gray;
+}
+footer p a{
+    color: gray;
+}
+main{
+    height: 2852px;
+}
